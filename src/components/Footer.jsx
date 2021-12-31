@@ -54,7 +54,7 @@ const Footer = () => {
                       rel="noreferrer"
                     >
                       <img
-                        src="/icons/github.svg"
+                        src="icons/github.svg"
                         alt="GitHub"
                         className="filter-white"
                       />
@@ -70,7 +70,7 @@ const Footer = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <img src="/icons/instagram.svg" alt="Instagram" />
+                      <img src="icons/instagram.svg" alt="Instagram" />
                       Instagram
                     </a>
                   </li>

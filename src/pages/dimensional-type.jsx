@@ -11,27 +11,27 @@ const DimensionalType = () => {
         <p style={{ margin: 0, marginBottom: 16 }}>Curated Numbers:</p>
         <div className="project-flex-container">
           <div className="project-flex-item col-2">
-            <img src="/dimensional_type/0-postwork.webp" alt="Number 0" />
+            <img src="dimensional_type/0-postwork.webp" alt="Number 0" />
           </div>
           <div className="project-flex-item col-2">
-            <img src="/dimensional_type/1-postwork.webp" alt="Number 1" />
+            <img src="dimensional_type/1-postwork.webp" alt="Number 1" />
           </div>
 
           <div className="project-flex-item">
-            <img src="/dimensional_type/2-postwork.webp" alt="Number 2" />
+            <img src="dimensional_type/2-postwork.webp" alt="Number 2" />
           </div>
 
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/3-postwork.webp"
+              src="dimensional_type/3-postwork.webp"
               alt="Number 3"
             />
           </div>
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/4-postwork.webp"
+              src="dimensional_type/4-postwork.webp"
               alt="Number 4"
             />
           </div>
@@ -39,7 +39,7 @@ const DimensionalType = () => {
           <div className="project-flex-item">
             <img
               loading="lazy"
-              src="/dimensional_type/5-postwork.webp"
+              src="dimensional_type/5-postwork.webp"
               alt="Number 5"
             />
           </div>
@@ -50,7 +50,7 @@ const DimensionalType = () => {
           <div className="project-flex-item">
             <img
               loading="lazy"
-              src="/dimensional_type/letterlove-postwork.webp"
+              src="dimensional_type/letterlove-postwork.webp"
               alt="Letter Love"
             />
           </div>
@@ -58,14 +58,14 @@ const DimensionalType = () => {
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/d-postwork.webp"
+              src="dimensional_type/d-postwork.webp"
               alt="Letter D"
             />
           </div>
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/e-postwork.webp"
+              src="dimensional_type/e-postwork.webp"
               alt="Letter E"
             />
           </div>
@@ -73,7 +73,7 @@ const DimensionalType = () => {
           <div className="project-flex-item">
             <img
               loading="lazy"
-              src="/dimensional_type/g-postwork.webp"
+              src="dimensional_type/g-postwork.webp"
               alt="Letter G"
             />
           </div>
@@ -81,7 +81,7 @@ const DimensionalType = () => {
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/m-postwork.webp"
+              src="dimensional_type/m-postwork.webp"
               alt="Letter M"
             />
           </div>
@@ -89,7 +89,7 @@ const DimensionalType = () => {
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/o-postwork.webp"
+              src="dimensional_type/o-postwork.webp"
               alt="Letter O"
             />
           </div>
@@ -97,7 +97,7 @@ const DimensionalType = () => {
           <div className="project-flex-item">
             <img
               loading="lazy"
-              src="/dimensional_type/p-postwork.webp"
+              src="dimensional_type/p-postwork.webp"
               alt="Letter P"
             />
           </div>
@@ -105,7 +105,7 @@ const DimensionalType = () => {
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/q-postwork.webp"
+              src="dimensional_type/q-postwork.webp"
               alt="Letter Q"
             />
           </div>
@@ -113,7 +113,7 @@ const DimensionalType = () => {
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/s-postwork.webp"
+              src="dimensional_type/s-postwork.webp"
               alt="Letter S"
             />
           </div>
@@ -121,7 +121,7 @@ const DimensionalType = () => {
           <div className="project-flex-item">
             <img
               loading="lazy"
-              src="/dimensional_type/u-postwork.webp"
+              src="dimensional_type/u-postwork.webp"
               alt="Letter U"
             />
           </div>
@@ -129,14 +129,14 @@ const DimensionalType = () => {
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/v-postwork.webp"
+              src="dimensional_type/v-postwork.webp"
               alt="Letter V"
             />
           </div>
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/w-postwork.webp"
+              src="dimensional_type/w-postwork.webp"
               alt="Letter W"
             />
           </div>
@@ -144,14 +144,14 @@ const DimensionalType = () => {
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/x-postwork.webp"
+              src="dimensional_type/x-postwork.webp"
               alt="Letter X"
             />
           </div>
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
-              src="/dimensional_type/y-postwork.webp"
+              src="dimensional_type/y-postwork.webp"
               alt="Letter Y"
             />
           </div>

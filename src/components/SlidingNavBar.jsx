@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const SlidingNavBar = () => {
-  // When the user scrolls down 20px from the top of the document, slide down the navbar
+  // When the user scrolls down 120px from the top of the document, slide down the navbar
   window.onscroll = function () {
     scrollFunction();
   };

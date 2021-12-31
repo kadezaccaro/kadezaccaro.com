@@ -39,17 +39,17 @@ const About = () => {
       <div className="centering" style={{ paddingBottom: 0 }}>
         <div className="row">
           <div className="column">
-            <img loading="lazy" src="/about/kt-profile.webp" alt="Portrait" />
+            <img loading="lazy" src="about/kt-profile.webp" alt="Portrait" />
             <img
               loading="lazy"
-              src="/about/z-roll.webp"
+              src="about/z-roll.webp"
               alt="Cat rolling in sunlight"
             />
           </div>
           <div className="column">
             <img
               loading="lazy"
-              src="/about/z-stretch.webp"
+              src="about/z-stretch.webp"
               alt="Cat stretching"
             />
           </div>
