@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 import SlidingNavBar from "./components/SlidingNavBar";
@@ -16,7 +16,7 @@ import DimensionalType from "./pages/dimensional-type";
 
 function App() {
   return (
-    <Router>
+    <div>
       <ScrollToTop />
       <Header />
       <SlidingNavBar />
@@ -35,7 +35,7 @@ function App() {
 
       <EmailCTA />
       <Footer />
-    </Router>
+    </div>
   );
 }
 
