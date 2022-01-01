@@ -26,6 +26,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Roboto Mono", monospace;
   font-size: 52px;
   line-height: 80px;
   font-weight: 700;
@@ -33,8 +34,6 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto Mono", monospace;
-  text-transform: uppercase;
   font-size: 32px;
   line-height: 40px;
   margin: 0;
@@ -216,10 +215,6 @@ button:hover {
   padding-left: 56px;
 }
 
-#navbar a:hover {
-  transform: translateY(-4px);
-}
-
 .active {
   color: #f9b110;
 }
@@ -316,6 +311,8 @@ button:hover {
   font-family: "Inter", sans-serif;
   text-transform: none;
   margin: 24px 0px 0px 0px;
+  font-size: 32px;
+  line-height: 40px;
 }
 
 .card-tags {
@@ -411,7 +408,6 @@ button:hover {
 
 .cert-title {
   font-family: "Inter", sans-serif;
-  text-transform: none;
   margin: 40px 0px 0px 0px;
 }
 
@@ -444,17 +440,16 @@ textarea {
   resize: vertical;
 }
 
-input[type="submit"] {
-  color: white;
+.submit {
   padding: 16px;
-  border: none;
   border-radius: 4px;
-  cursor: pointer;
-  border: 2px solid #f9b110;
+  font-size: 20px;
+  line-height: 32px;
+  width: 100%;
   transition: 300ms;
 }
 
-input[type="submit"]:hover {
+.submit:hover {
   border: 2px solid white;
   transform: scale(1.05);
 }
@@ -482,14 +477,6 @@ input[type="submit"]:hover {
 .footer-logo a {
   display: block;
   transition: 300ms;
-}
-
-.footer-logo a:hover {
-  transform: translateY(-4px);
-}
-
-footer li a:hover {
-  transform: translateX(4px);
 }
 
 .footer-logo.footer-flex-item {
@@ -643,8 +630,7 @@ footer li a:hover {
 
 @media (max-width: 768px) {
   .centering {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 80px 16px 80px 16px;
   }
 
   .centering-header {
@@ -686,17 +672,27 @@ footer li a:hover {
   .project-flex-item.col-2.small {
     max-width: 60%;
   }
-
-  .dt-flex-item {
-    max-width: 100%;
-    flex-basis: 100%;
-  }
 }
 
 @media (max-width: 576px) {
   h1 {
     font-size: 52px;
     line-height: 64px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .cert-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .cert-info {
+    font-size: 16px;
+    line-height: 24px;
   }
 
   #logo-header {
@@ -711,5 +707,14 @@ footer li a:hover {
   #work-grid {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+
+  button {
+    padding: 16px 24px 16px 24px;
+    font-size: 20px;
+  }
+
+  #sliding-navbar-links {
+    justify-content: space-between;
   }
 }

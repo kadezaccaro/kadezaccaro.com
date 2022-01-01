@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
-    <div className="fade-page-animation">
+    <div className="slide-fade-page-animation">
       <div className="centering">
         <h1 className="intro">
           I'm Kade, a <strong>Designer </strong>
@@ -20,7 +20,7 @@ const Work = () => {
                   <img src="work/gp-cover-v2.svg" alt="Project cover" />
                 </div>
                 <figcaption>
-                  <h3 className="card-title">Grand Place</h3>
+                  <h2 className="card-title">Grand Place</h2>
                   <p className="card-tags">Branding, Web Development</p>
                 </figcaption>
               </figure>
@@ -32,7 +32,7 @@ const Work = () => {
                   <img src="work/m-mark.svg" alt="Project cover" />
                 </div>
                 <figcaption>
-                  <h3 className="card-title">Logofolio</h3>
+                  <h2 className="card-title">Logofolio</h2>
                   <p className="card-tags">Logo Design</p>
                 </figcaption>
               </figure>
@@ -48,7 +48,7 @@ const Work = () => {
                   />
                 </div>
                 <figcaption>
-                  <h3 className="card-title">Lettering Collection</h3>
+                  <h2 className="card-title">Lettering Collection</h2>
                   <p className="card-tags">Custom Lettering</p>
                 </figcaption>
               </figure>
@@ -64,7 +64,7 @@ const Work = () => {
                   />
                 </div>
                 <figcaption>
-                  <h3 className="card-title">Dimensional Type</h3>
+                  <h2 className="card-title">Dimensional Type</h2>
                   <p className="card-tags">3D Lettering</p>
                 </figcaption>
               </figure>

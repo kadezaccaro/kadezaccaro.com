@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="fade-page-animation">
+    <div className="slide-fade-page-animation">
       <div className="centering" style={{ maxWidth: 704 }}>
         <h1>Contact</h1>
         <p style={{ margin: 0, marginBottom: 40 }}>
@@ -23,7 +23,7 @@ const Contact = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://kadezaccaro.com/success"
+            value="https://kadezaccaro.com/#/success"
           />
 
           <label for="name">Name</label>
@@ -40,11 +40,9 @@ const Contact = () => {
             required
           ></textarea>
 
-          <input
-            type="submit"
-            value="Send message"
-            style={{ margin: 0 }}
-          ></input>
+          <button type="submit" className="submit">
+            Send message
+          </button>
         </form>
       </div>
     </div>

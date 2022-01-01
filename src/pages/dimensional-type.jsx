@@ -2,7 +2,7 @@ import React from "react";
 
 const DimensionalType = () => {
   return (
-    <div className="slide-fade-page-animation">
+    <div className="fade-page-animation">
       <div className="centering">
         <h1 style={{ textAlign: "center", margin: 0 }}>Dimensional Type</h1>
       </div>

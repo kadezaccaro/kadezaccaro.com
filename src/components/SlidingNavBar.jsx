@@ -22,9 +22,15 @@ const SlidingNavBar = () => {
       <header>
         <nav id="sliding-navbar">
           <div id="sliding-navbar-links">
-            <Link to="/work">[Work]</Link>
-            <Link to="/about">[About]</Link>
-            <Link to="/contact">[Contact]</Link>
+            <Link to="/work" onClick={() => window.scrollTo(0, 0)}>
+              [Work]
+            </Link>
+            <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+              [About]
+            </Link>
+            <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+              [Contact]
+            </Link>
           </div>
         </nav>
       </header>

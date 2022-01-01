@@ -2,7 +2,7 @@ import React from "react";
 
 const GrandPlace = () => {
   return (
-    <div className="slide-fade-page-animation">
+    <div className="fade-page-animation">
       <div className="bg-light">
         <div className="centering" style={{ maxWidth: 704 }}>
           {/* <p
@@ -45,7 +45,9 @@ const GrandPlace = () => {
         />
 
         <div className="centering" style={{ maxWidth: 704 }}>
-          <h3 style={{ color: "#121212" }}>THE SOLUTION</h3>
+          <h2 className="case-study-h2" style={{ color: "#121212" }}>
+            THE SOLUTION
+          </h2>
           <p style={{ color: "#121212" }}>
             With a new identity, they wanted their brand to target a luxury
             market while still being approachable to first-home buyers. We
@@ -80,13 +82,14 @@ const GrandPlace = () => {
         </div>
 
         <div className="centering" style={{ maxWidth: 704 }}>
-          <h3
+          <h2
+            className="case-study-h2"
             style={{
               color: "#121212",
             }}
           >
             BRAND NAMING
-          </h3>
+          </h2>
           <p style={{ color: "#121212" }}>
             Previously operating under their last name, I worked with the
             founders, George &amp; Page, to rename their company. The old name
@@ -110,13 +113,14 @@ const GrandPlace = () => {
         </div>
 
         <div className="centering" style={{ maxWidth: 704 }}>
-          <h3
+          <h2
+            className="case-study-h2"
             style={{
               color: "#121212",
             }}
           >
             LOGO, TYPE &amp; COLOR
-          </h3>
+          </h2>
           <p style={{ color: "#121212" }}>
             Starting with concept sketches, many ideas are then explored and
             refined into a few of the best options to present to the client.
@@ -157,13 +161,14 @@ const GrandPlace = () => {
         </div>
 
         <div className="centering" style={{ maxWidth: 704 }}>
-          <h3
+          <h2
+            className="case-study-h2"
             style={{
               color: "#121212",
             }}
           >
             SIGNAGE &amp; PRINTED MATERIAL
-          </h3>
+          </h2>
 
           <p style={{ color: "#121212" }}>
             With the industry's rules and regulations in mind, I began applying

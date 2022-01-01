@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="fade-page-animation">
+    <div className="slide-fade-page-animation">
       <div className="centering" style={{ paddingBottom: 0 }}>
         <h1 className="intro" style={{ margin: 0 }}>
           I'm Kade,{" "}

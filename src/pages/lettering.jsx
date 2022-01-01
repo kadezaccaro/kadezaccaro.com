@@ -2,7 +2,7 @@ import React from "react";
 
 const Lettering = () => {
   return (
-    <div className="slide-fade-page-animation">
+    <div className="fade-page-animation">
       <div className="bg-light">
         <div className="centering">
           <h1 style={{ textAlign: "center", margin: 0, color: "#121212" }}>
