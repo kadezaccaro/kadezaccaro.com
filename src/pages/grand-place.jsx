@@ -40,7 +40,7 @@ const GrandPlace = () => {
 
         <img
           style={{ borderRadius: 0 }}
-          src="grand_place/GrandPlace_StackedLogo.svg"
+          src="/grand_place/GrandPlace_StackedLogo.svg"
           alt="Grand Place stacked logotype"
         />
 
@@ -76,7 +76,7 @@ const GrandPlace = () => {
         <div className="centering" style={{ paddingTop: 0, paddingBottom: 0 }}>
           <img
             loading="lazy"
-            src="grand_place/GrandPlace_Logos_CaseStudy.webp"
+            src="/grand_place/GrandPlace_Logos_CaseStudy.webp"
             alt="Grand Place Primary and Secondary Logos"
           />
         </div>
@@ -107,7 +107,7 @@ const GrandPlace = () => {
         <div className="centering" style={{ paddingTop: 0, paddingBottom: 0 }}>
           <img
             loading="lazy"
-            src="grand_place/gp-box-and-key.webp"
+            src="/grand_place/gp-box-and-key.webp"
             alt="Grand Place Box and Key"
           />
         </div>
@@ -142,20 +142,20 @@ const GrandPlace = () => {
         <div className="centering" style={{ paddingTop: 0, paddingBottom: 0 }}>
           <img
             loading="lazy"
-            src="grand_place/gp-clearspace.webp"
+            src="/grand_place/gp-clearspace.webp"
             alt="Grand Place minimum clear space guides"
           />
           <img
             style={{ marginTop: 24 }}
             loading="lazy"
-            src="grand_place/grandplace_colorpalette.webp"
+            src="/grand_place/grandplace_colorpalette.webp"
             alt="Grand Place various logos color palette"
           />
 
           <img
             style={{ marginTop: 24 }}
             loading="lazy"
-            src="grand_place/BrandGuide_Presentation_Letter.webp"
+            src="/grand_place/BrandGuide_Presentation_Letter.webp"
             alt="Grand Place brand guidelines"
           />
         </div>
@@ -187,12 +187,12 @@ const GrandPlace = () => {
           >
             <img
               loading="lazy"
-              src="grand_place/GrandPlace_OpenHouseSign.svg"
+              src="/grand_place/GrandPlace_OpenHouseSign.svg"
               alt="Grand Place Small Sign"
             />
             <img
               loading="lazy"
-              src="grand_place/GrandPlace_LargeSign.svg"
+              src="/grand_place/GrandPlace_LargeSign.svg"
               alt="Grand Place Large Sign"
             />
           </div>
@@ -200,19 +200,19 @@ const GrandPlace = () => {
           <img
             style={{ marginTop: 24 }}
             loading="lazy"
-            src="grand_place/gp-businesscard-rd2-option2.webp"
+            src="/grand_place/gp-businesscard-rd2-option2.webp"
             alt="Grand Place Business Card Design"
           />
           <img
             style={{ marginTop: 24 }}
             loading="lazy"
-            src="grand_place/gp-homesellersguide-mockup-v2.webp"
+            src="/grand_place/gp-homesellersguide-mockup-v2.webp"
             alt="Grand Place Home Seller's Guide"
           />
           <img
             style={{ maxWidth: 704, margin: "0 auto" }}
             loading="lazy"
-            src="grand_place/GrandPlace_Logomark_Color.webp"
+            src="/grand_place/GrandPlace_Logomark_Color.webp"
             alt="Grand Place Logomark"
           />
         </div>

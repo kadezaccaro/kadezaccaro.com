@@ -38,19 +38,25 @@ const About = () => {
 
       <div className="centering" style={{ paddingBottom: 0 }}>
         <div className="row">
-          <div className="column">
-            <img loading="lazy" src="about/kt-profile.webp" alt="Portrait" />
+          <div className="column left">
+            <img
+              style={{ margin: 0 }} // Prevent top image from having unnecessary space
+              loading="lazy"
+              src="/about/kt-profile.webp"
+              alt="Portrait"
+            />
             <img
               loading="lazy"
-              src="about/z-roll.webp"
-              alt="Cat rolling in sunlight"
+              src="/about/z-roll.webp"
+              alt="My cat rolling in the sun"
             />
           </div>
-          <div className="column">
+          <div className="column right">
             <img
+              style={{ margin: 0 }} // Prevent top image from having unnecessary space
               loading="lazy"
-              src="about/z-stretch.webp"
-              alt="Cat stretching"
+              src="/about/z-stretch.webp"
+              alt="My cat stretching"
             />
           </div>
         </div>

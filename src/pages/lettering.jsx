@@ -15,30 +15,34 @@ const Lettering = () => {
             <div className="project-flex-item col-2">
               <img
                 loading="lazy"
-                src="lettering/truth-will-last.svg"
+                src="/lettering/truth-will-last.svg"
                 alt="Truth Will Last"
               />
             </div>
             <div className="project-flex-item col-2">
               <img
                 loading="lazy"
-                src="lettering/artiswork.webp"
+                src="/lettering/artiswork.webp"
                 alt="Art is Work"
               />
             </div>
 
             <div className="project-flex-item">
-              <img loading="lazy" src="lettering/thanks.svg" alt="Thanks" />
+              <img loading="lazy" src="/lettering/thanks.svg" alt="Thanks" />
             </div>
 
             <div className="project-flex-item">
-              <img loading="lazy" src="lettering/pressure.svg" alt="Pressure" />
+              <img
+                loading="lazy"
+                src="/lettering/pressure.svg"
+                alt="Pressure"
+              />
             </div>
 
             <div className="project-flex-item col-2">
               <img
                 loading="lazy"
-                src="lettering/loosenup.svg"
+                src="/lettering/loosenup.svg"
                 alt="Loosen Up"
               />
             </div>
@@ -50,19 +54,19 @@ const Lettering = () => {
                 }}
                 loading="lazy"
                 className="rotate"
-                src="lettering/letter-n.svg"
+                src="/lettering/letter-n.svg"
                 alt="Letter N"
               />
             </div>
 
             <div className="project-flex-item col-2 big">
-              <img loading="lazy" src="lettering/jfs.svg" alt="JFS" />
+              <img loading="lazy" src="/lettering/jfs.svg" alt="JFS" />
             </div>
             <div className="project-flex-item col-2 small">
               <figure>
                 <img
                   loading="lazy"
-                  src="lettering/typism-book-feature.webp"
+                  src="/lettering/typism-book-feature.webp"
                   alt="Typism Book 6 feature"
                 />
                 <figcaption className="caption" style={{ color: "#121212" }}>
@@ -74,38 +78,54 @@ const Lettering = () => {
             </div>
 
             <div className="project-flex-item col-2">
-              <img loading="lazy" src="lettering/sunday.svg" alt="Sunday" />
+              <img loading="lazy" src="/lettering/sunday.svg" alt="Sunday" />
             </div>
             <div className="project-flex-item col-2">
-              <img loading="lazy" src="lettering/refine.svg" alt="Refine" />
+              <img loading="lazy" src="/lettering/refine.svg" alt="Refine" />
             </div>
 
-            <img loading="lazy" src="lettering/altruism.svg" alt="Altruism" />
+            <img loading="lazy" src="/lettering/altruism.svg" alt="Altruism" />
 
             <div className="project-flex-item col-4">
-              <img loading="lazy" src="lettering/letter-a.svg" alt="Letter A" />
+              <img
+                loading="lazy"
+                src="/lettering/letter-a.svg"
+                alt="Letter A"
+              />
             </div>
             <div className="project-flex-item col-4">
-              <img loading="lazy" src="lettering/letter-b.svg" alt="Letter B" />
+              <img
+                loading="lazy"
+                src="/lettering/letter-b.svg"
+                alt="Letter B"
+              />
             </div>
             <div className="project-flex-item col-4">
-              <img loading="lazy" src="lettering/letter-c.svg" alt="Letter C" />
+              <img
+                loading="lazy"
+                src="/lettering/letter-c.svg"
+                alt="Letter C"
+              />
             </div>
             <div className="project-flex-item col-4">
-              <img loading="lazy" src="lettering/letter-d.svg" alt="Letter D" />
+              <img
+                loading="lazy"
+                src="/lettering/letter-d.svg"
+                alt="Letter D"
+              />
             </div>
 
             <div className="project-flex-item col-2">
               <img
                 loading="lazy"
-                src="lettering/ubn-collection.webp"
+                src="/lettering/ubn-collection.webp"
                 alt="Undefined By Numbers"
               />
             </div>
             <div className="project-flex-item col-2">
               <img
                 loading="lazy"
-                src="lettering/t-flourished.svg"
+                src="/lettering/t-flourished.svg"
                 alt="Letter T flourished"
               />
             </div>
@@ -113,33 +133,33 @@ const Lettering = () => {
             <div className="project-flex-item">
               <img
                 loading="lazy"
-                src="lettering/communicate.svg"
+                src="/lettering/communicate.svg"
                 alt="Communicate"
               />
             </div>
 
             <div className="project-flex-item col-2">
-              <img loading="lazy" src="lettering/faux.svg" alt="Faux" />
+              <img loading="lazy" src="/lettering/faux.svg" alt="Faux" />
             </div>
             <div className="project-flex-item col-2">
-              <img loading="lazy" src="lettering/surreal.svg" alt="Surreal" />
+              <img loading="lazy" src="/lettering/surreal.svg" alt="Surreal" />
             </div>
 
             <div className="project-flex-item">
-              <img loading="lazy" src="lettering/rebuild.svg" alt="Rebuild" />
+              <img loading="lazy" src="/lettering/rebuild.svg" alt="Rebuild" />
             </div>
 
             <div className="project-flex-item col-2">
-              <img loading="lazy" src="lettering/balance.svg" alt="Balance" />
+              <img loading="lazy" src="/lettering/balance.svg" alt="Balance" />
             </div>
             <div className="project-flex-item col-2">
-              <img loading="lazy" src="lettering/rhythm.svg" alt="Rhythm" />
+              <img loading="lazy" src="/lettering/rhythm.svg" alt="Rhythm" />
             </div>
 
             <div className="project-flex-item col-2">
               <img
                 loading="lazy"
-                src="lettering/our-musings.svg"
+                src="/lettering/our-musings.svg"
                 alt="Our Musings"
               />
             </div>
@@ -151,7 +171,7 @@ const Lettering = () => {
                   margin: "0 auto",
                 }}
                 loading="lazy"
-                src="lettering/letter-l.svg"
+                src="/lettering/letter-l.svg"
                 alt="Letter L"
               />
             </div>
@@ -159,7 +179,7 @@ const Lettering = () => {
             <div className="project-flex-item">
               <img
                 loading="lazy"
-                src="lettering/dr-lecter.svg"
+                src="/lettering/dr-lecter.svg"
                 alt="Dr. Lecter"
               />
             </div>

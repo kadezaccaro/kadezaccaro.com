@@ -17,7 +17,7 @@ const Work = () => {
             <Link to="/grand-place" className="project-card">
               <figure>
                 <div className="thumbnail border">
-                  <img src="work/gp-cover-v2.svg" alt="Project cover" />
+                  <img src="/work/gp-cover-v2.svg" alt="Project cover" />
                 </div>
                 <figcaption>
                   <h2 className="card-title">Grand Place</h2>
@@ -29,7 +29,7 @@ const Work = () => {
             <Link to="/logos" className="project-card">
               <figure>
                 <div className="thumbnail">
-                  <img src="work/m-mark.svg" alt="Project cover" />
+                  <img src="/work/m-mark.svg" alt="Project cover" />
                 </div>
                 <figcaption>
                   <h2 className="card-title">Logofolio</h2>
@@ -43,7 +43,7 @@ const Work = () => {
                 <div className="thumbnail">
                   <img
                     loading="lazy"
-                    src="work/lettering-cover-v3.svg"
+                    src="/work/lettering-cover-v3.svg"
                     alt="Lettering cover"
                   />
                 </div>
@@ -59,7 +59,7 @@ const Work = () => {
                 <div className="thumbnail">
                   <img
                     loading="lazy"
-                    src="work/dt-cover.webp"
+                    src="/work/dt-cover.webp"
                     alt="Lettering cover"
                   />
                 </div>

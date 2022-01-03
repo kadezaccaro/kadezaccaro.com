@@ -98,6 +98,10 @@ button:hover {
   transform: scale(1.05);
 }
 
+strong {
+  font-weight: 700;
+}
+
 /* || SITEWIDE */
 
 .centering {
@@ -168,7 +172,6 @@ button:hover {
 }
 
 .strikethrough {
-  /* Makes emojis display normally */
   color: #6c6c6c;
   font-weight: 300;
   text-decoration: line-through;
@@ -245,6 +248,7 @@ button:hover {
   font-family: "Roboto Mono", monospace;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
@@ -252,8 +256,8 @@ button:hover {
 }
 
 #sliding-navbar-links a {
-  padding: 16px;
-  /* Terminal Green: #39ff14; */
+  padding: 16px 28px 16px 28px; /* 56/2 = 28 to match header links spacing */
+  /* Terminal green */ /* color: #39ff14; */
 }
 
 #sliding-navbar a:hover {
@@ -396,12 +400,19 @@ button:hover {
 .column {
   flex: 50%;
   max-width: 50%;
-  padding: 0 4px;
   height: auto;
 }
 
+.column.left {
+  padding-right: 8px;
+}
+
+.column.right {
+  padding-left: 8px;
+}
+
 .column img {
-  margin-top: 8px;
+  margin-top: 16px;
   vertical-align: middle;
   width: 100%;
 }
@@ -445,6 +456,7 @@ textarea {
   border-radius: 4px;
   font-size: 20px;
   line-height: 32px;
+  font-weight: 400;
   width: 100%;
   transition: 300ms;
 }
@@ -672,6 +684,14 @@ textarea {
   .project-flex-item.col-2.small {
     max-width: 60%;
   }
+
+  #sliding-navbar-links {
+    justify-content: space-between;
+  }
+
+  #sliding-navbar-links a {
+    padding: 16px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -712,9 +732,5 @@ textarea {
   button {
     padding: 16px 24px 16px 24px;
     font-size: 20px;
-  }
-
-  #sliding-navbar-links {
-    justify-content: space-between;
   }
 }
