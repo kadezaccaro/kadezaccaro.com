@@ -11,7 +11,11 @@ const Footer = () => {
         >
           <div id="footer-flex-container">
             <div className="footer-logo footer-flex-item">
-              <Link to="/work" id="logo-footer">
+              <Link
+                to="/work"
+                onClick={() => window.scrollTo(0, 0)}
+                id="logo-footer"
+              >
                 Kade Zaccaro&trade;
               </Link>
               <p className="in-short">
@@ -75,7 +79,11 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src="/icons/instagram.svg" alt="Instagram" />
+                    <img
+                      src="/icons/instagram.svg"
+                      alt="Instagram"
+                      className="filter-white"
+                    />
                     Instagram
                   </a>
                 </li>

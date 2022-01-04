@@ -127,6 +127,11 @@ strong {
   background-color: #fffcf8;
 }
 
+.bg-light-v2 {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
 .bg-dark {
   width: 100%;
   background-color: #1a1a1a;
@@ -158,6 +163,25 @@ strong {
   list-style-type: disc;
   margin-left: 17px;
   padding: 8px 0px 0px 5px;
+}
+
+.bullet-list.services li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services-flex-container {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto Mono", monospace;
+  color: #121212;
+}
+
+.subtag {
+  font-family: "Roboto Mono", monospace;
+  color: #6c6c6c;
+  margin: 0;
 }
 
 .caption {
@@ -527,6 +551,7 @@ textarea {
   height: 32px;
   width: auto;
   padding-right: 16px;
+  border-radius: 0;
 }
 
 .filter-white {
@@ -732,5 +757,13 @@ textarea {
   button {
     padding: 16px 24px 16px 24px;
     font-size: 20px;
+  }
+
+  .services-flex-container {
+    flex-direction: column;
+  }
+
+  .subtag.web-url {
+    margin-top: 40px;
   }
 }

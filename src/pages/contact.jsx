@@ -23,7 +23,7 @@ const Contact = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://kadezaccaro.com/#/success"
+            value="https://kadezaccaro.com/success"
           />
 
           <label for="name">Name</label>

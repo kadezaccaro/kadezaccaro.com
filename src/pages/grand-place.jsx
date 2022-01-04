@@ -4,14 +4,7 @@ const GrandPlace = () => {
   return (
     <div className="fade-page-animation">
       <div className="bg-light">
-        <div className="centering" style={{ maxWidth: 704 }}>
-          {/* <p
-            style={{
-              color: "#121212",
-            }}
-          >
-            CASE STUDY &mdash;
-          </p> */}
+        <div className="centering" style={{ paddingBottom: 40, maxWidth: 704 }}>
           <h1
             style={{
               color: "#121212",
@@ -31,11 +24,46 @@ const GrandPlace = () => {
             Many realtors face this as they rely on templates for their brand,
             which results in everyone blending in with the competition.
           </p>
-          <p style={{ color: "#121212" }}>
-            <strong>Services Provided:</strong> Strategy, Naming, Identity
-            Design, Typography &amp; Color, Brand Guidelines, Signage, Printed
-            Material
-          </p>
+        </div>
+
+        <div className="bg-light-v2">
+          <div className="centering" style={{ maxWidth: 704, paddingTop: 40 }}>
+            <div className="services-flex-container">
+              <div className="services-flex-item">
+                <p className="subtag">SERVICES</p>
+                <ul className="bullet-list services">
+                  <li>+ Visual Strategy</li>
+                  <li>+ Branding</li>
+                  <li>+ Signage System</li>
+                  <li>+ Web Design</li>
+                  <li>+ WordPress Development</li>
+                </ul>
+              </div>
+
+              <div className="services-flex-item">
+                <p className="subtag web-url">WEBSITE URL</p>
+                <p style={{ margin: 0 }}>
+                  <a
+                    style={{ color: "#121212" }}
+                    className="social-icon align-icon"
+                    href="https://www.grandplacere.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      style={{
+                        borderRadius: 0,
+                        height: 16,
+                      }}
+                      src="/icons/launch.svg"
+                      alt="Launch"
+                    />
+                    grandplacere.com
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <img
@@ -142,16 +170,15 @@ const GrandPlace = () => {
         <div className="centering" style={{ paddingTop: 0, paddingBottom: 0 }}>
           <img
             loading="lazy"
-            src="/grand_place/gp-clearspace.webp"
-            alt="Grand Place minimum clear space guides"
+            src="/grand_place/grandplace_colorpalette.webp"
+            alt="Grand Place various logos color palette"
           />
           <img
             style={{ marginTop: 24 }}
             loading="lazy"
-            src="/grand_place/grandplace_colorpalette.webp"
-            alt="Grand Place various logos color palette"
+            src="/grand_place/gp-clearspace.webp"
+            alt="Grand Place minimum clear space guides"
           />
-
           <img
             style={{ marginTop: 24 }}
             loading="lazy"
