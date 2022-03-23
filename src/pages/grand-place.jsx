@@ -56,7 +56,7 @@ const GrandPlace = () => {
                         height: 16,
                       }}
                       src="/icons/launch.svg"
-                      alt="Launch"
+                      alt="Open in new tab icon"
                     />
                     grandplacere.com
                   </a>
@@ -105,7 +105,7 @@ const GrandPlace = () => {
           <img
             loading="lazy"
             src="/grand_place/GrandPlace_Logos_CaseStudy.webp"
-            alt="Grand Place Primary and Secondary Logos"
+            alt="Grand Place primary and secondary logos"
           />
         </div>
 
@@ -136,7 +136,7 @@ const GrandPlace = () => {
           <img
             loading="lazy"
             src="/grand_place/gp-box-and-key.webp"
-            alt="Grand Place Box and Key"
+            alt="Grand Place logo embossed on a box and key"
           />
         </div>
 
@@ -171,7 +171,7 @@ const GrandPlace = () => {
           <img
             loading="lazy"
             src="/grand_place/grandplace_colorpalette.webp"
-            alt="Grand Place various logos color palette"
+            alt="Various Grand Place logo colorways"
           />
           <img
             style={{ marginTop: 24 }}
@@ -215,12 +215,12 @@ const GrandPlace = () => {
             <img
               loading="lazy"
               src="/grand_place/GrandPlace_OpenHouseSign.svg"
-              alt="Grand Place Small Sign"
+              alt="Grand Place small open house sign"
             />
             <img
               loading="lazy"
               src="/grand_place/GrandPlace_LargeSign.svg"
-              alt="Grand Place Large Sign"
+              alt="Grand Place large for sale sign"
             />
           </div>
 
@@ -228,7 +228,7 @@ const GrandPlace = () => {
             style={{ marginTop: 24 }}
             loading="lazy"
             src="/grand_place/gp-businesscard-rd2-option2.webp"
-            alt="Grand Place Business Card Design"
+            alt="Grand Place business cards"
           />
           <img
             style={{ marginTop: 24 }}
@@ -240,7 +240,7 @@ const GrandPlace = () => {
             style={{ maxWidth: 704, margin: "0 auto" }}
             loading="lazy"
             src="/grand_place/GrandPlace_Logomark_Color.webp"
-            alt="Grand Place Logomark"
+            alt='"GP" logomark with sunburst effect'
           />
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 const EmailCTA = () => {
   return (
     <div className="fade-page-animation">
-      <div className="bg-dark">
+      <div className="bg-dark-fade">
         <div className="centering">
           <div className="centering-cta">
             <h1 className="lets-create" style={{ margin: 0 }}>

@@ -93,7 +93,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="bg-dark">
+        <div className="bg-dark-fade">
           <div className="centering" style={{ padding: 32 }}>
             <p style={{ marginTop: 0, textAlign: "center" }}>
               Kade Zaccaro &copy; 2022

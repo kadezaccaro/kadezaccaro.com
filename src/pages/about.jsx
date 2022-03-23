@@ -43,12 +43,12 @@ const About = () => {
               style={{ margin: 0 }} // Prevent top image from having unnecessary space
               loading="lazy"
               src="/about/kt-profile.webp"
-              alt="Portrait"
+              alt="Headshot of Kade Zaccaro"
             />
             <img
               loading="lazy"
               src="/about/z-roll.webp"
-              alt="My cat rolling in the sun"
+              alt="Brown cat on its back rolling in the sun"
             />
           </div>
           <div className="column right">
@@ -56,7 +56,7 @@ const About = () => {
               style={{ margin: 0 }} // Prevent top image from having unnecessary space
               loading="lazy"
               src="/about/z-stretch.webp"
-              alt="My cat stretching"
+              alt="Cat stretching outside"
             />
           </div>
         </div>

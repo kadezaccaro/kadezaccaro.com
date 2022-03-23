@@ -11,28 +11,37 @@ const DimensionalType = () => {
         <p style={{ margin: 0, marginBottom: 16 }}>Curated Numbers:</p>
         <div className="project-flex-container">
           <div className="project-flex-item col-2">
-            <img src="/dimensional_type/0-postwork.webp" alt="Number 0" />
+            <img
+              src="/dimensional_type/0-postwork.webp"
+              alt='"0" with spiraled red ribbon effect'
+            />
           </div>
           <div className="project-flex-item col-2">
-            <img src="/dimensional_type/1-postwork.webp" alt="Number 1" />
+            <img
+              src="/dimensional_type/1-postwork.webp"
+              alt='"1" with spiraled red ribbon effect'
+            />
           </div>
 
           <div className="project-flex-item">
-            <img src="/dimensional_type/2-postwork.webp" alt="Number 2" />
+            <img
+              src="/dimensional_type/2-postwork.webp"
+              alt='"2" with spiraled red ribbon effect'
+            />
           </div>
 
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
               src="/dimensional_type/3-postwork.webp"
-              alt="Number 3"
+              alt='"3" constructed with pieces of black tape effect'
             />
           </div>
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
               src="/dimensional_type/4-postwork.webp"
-              alt="Number 4"
+              alt='"4" constructed with pieces of black tape effect'
             />
           </div>
 
@@ -40,7 +49,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/5-postwork.webp"
-              alt="Number 5"
+              alt='"5" constructed with pieces of black tape effect'
             />
           </div>
         </div>
@@ -51,7 +60,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/letterlove-postwork.webp"
-              alt="Letter Love"
+              alt='"Letter Love" monoline with metallic chrome effect'
             />
           </div>
 
@@ -59,14 +68,14 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/d-postwork.webp"
-              alt="Letter D"
+              alt='"D" monoline with metallic gold effect'
             />
           </div>
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
               src="/dimensional_type/e-postwork.webp"
-              alt="Letter E"
+              alt='"E" funk style with vibrant mixed lighting effects'
             />
           </div>
 
@@ -74,7 +83,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/g-postwork.webp"
-              alt="Letter G"
+              alt='"G" lowercase serif style with mixed lighting effects'
             />
           </div>
 
@@ -82,7 +91,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/m-postwork.webp"
-              alt="Letter M"
+              alt='"M" chocolate dessert with sprinkles'
             />
           </div>
 
@@ -90,7 +99,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/o-postwork.webp"
-              alt="Letter O"
+              alt='"O" glass with elegant lighting and reflections'
             />
           </div>
 
@@ -98,7 +107,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/p-postwork.webp"
-              alt="Letter P"
+              alt='"P" brown animal hair/fur effect'
             />
           </div>
 
@@ -106,7 +115,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/q-postwork.webp"
-              alt="Letter Q"
+              alt='"Q" Art Deco style with embossed metal effect'
             />
           </div>
 
@@ -114,7 +123,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/s-postwork.webp"
-              alt="Letter S"
+              alt='"S" chrome car emblem effect'
             />
           </div>
 
@@ -122,7 +131,7 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/u-postwork.webp"
-              alt="Letter U"
+              alt='"U" blackletter style with cracked cement and overgrown moss'
             />
           </div>
 
@@ -130,14 +139,14 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/v-postwork.webp"
-              alt="Letter V"
+              alt='"V" melted cheese effect with marble countertop'
             />
           </div>
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
               src="/dimensional_type/w-postwork.webp"
-              alt="Letter W"
+              alt='"W" teal neon sign with metallic background'
             />
           </div>
 
@@ -145,14 +154,14 @@ const DimensionalType = () => {
             <img
               loading="lazy"
               src="/dimensional_type/x-postwork.webp"
-              alt="Letter X"
+              alt='"X" melting block of ice with crystals inside'
             />
           </div>
           <div className="project-flex-item col-2">
             <img
               loading="lazy"
               src="/dimensional_type/y-postwork.webp"
-              alt="Letter Y"
+              alt='"Y" inflated pink balloon floating in the sky'
             />
           </div>
         </div>
