@@ -8,7 +8,7 @@ const About = () => {
           I'm Kade,{" "}
           <span className="strikethrough">
             a<strong> Designer</strong> &amp;{" "}
-            <strong>Front End Developer.</strong>
+            <strong>Front-End Developer.</strong>
           </span>
           <br></br>a <strong>Human Being.</strong>
         </h1>
@@ -77,21 +77,17 @@ const About = () => {
         <hr className="spacer-line" />
 
         <h3 className="cert-title">
-          Front End Development Libraries Certificate
+          Front-End Development Libraries Certificate
         </h3>
         <p className="cert-info">freeCodeCamp &mdash; October 2021</p>
         <hr className="spacer-line" />
 
-        <h3 className="cert-title">Data Visualization Certificate</h3>
+        {/* <h3 className="cert-title">Data Visualization Certificate</h3>
         <p className="cert-info">freeCodeCamp &mdash; November 2021</p>
-        <hr className="spacer-line" />
+        <hr className="spacer-line" /> */}
 
-        <h3 className="cert-title">
-          Google UX Design Certificate (in progress)
-        </h3>
-        <p className="cert-info">
-          Google &mdash; Expected to complete in June 2022
-        </p>
+        <h3 className="cert-title">Foundations of User Experience Design</h3>
+        <p className="cert-info">Google &mdash; May 2022</p>
         <hr className="spacer-line" />
       </div>
     </div>

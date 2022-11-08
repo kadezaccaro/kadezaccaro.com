@@ -1,3 +1,16 @@
+/* || CSS VARIABLES */
+
+:root {
+  --dark-tangerine: #f9b110;
+  --white-smoke: #f3f3f3;
+  --silver-chalice: #a0a0a0;
+  --floral-white: #fffcf8;
+  --dim-gray: #6c6c6c;
+  --nero-gray: #1a1a1a;
+  --dark-gray: #121212;
+  --white: white;
+}
+
 /* || GENERAL STYLES */
 
 html {
@@ -12,10 +25,10 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #121212;
-  color: white;
-  border-top: 4px solid #f9b110;
-  border-bottom: 4px solid #f9b110;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border-top: 4px solid var(--dark-tangerine);
+  border-bottom: 4px solid var(--dark-tangerine);
 }
 
 h1 {
@@ -44,7 +57,7 @@ p {
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
-  color: #a0a0a0;
+  color: var(--silver-chalice);
   margin: 40px 0px 0px 0px;
 }
 
@@ -52,7 +65,7 @@ a {
   font-family: "Roboto Mono", monospace;
   text-decoration: none;
   list-style: none;
-  color: white;
+  color: var(--white);
   transition: 300ms;
 }
 
@@ -83,10 +96,10 @@ li {
 button {
   background: none;
   padding: 24px 32px 24px 32px;
-  border: 2px solid #f9b110;
+  border: 2px solid var(--dark-tangerine);
   border-radius: 24px;
   cursor: pointer;
-  color: white;
+  color: var(--white);
   font-size: 32px;
   line-height: 40px;
   transition: 300ms;
@@ -124,27 +137,27 @@ strong {
 
 .bg-light {
   width: 100%;
-  background-color: #fffcf8;
+  background-color: var(--floral-white);
 }
 
 .bg-light-v2 {
   width: 100%;
-  background-color: #f3f3f3;
+  background-color: var(--white-smoke);
 }
 
 .bg-dark {
   width: 100%;
-  background-color: #1a1a1a;
+  background-color: var(--nero-gray);
 }
 
 .bg-dark-fade {
   width: 100%;
-  background: linear-gradient(90deg, #1a1a1a, #121212);
+  background: linear-gradient(90deg, var(--nero-gray), var(--dark-gray));
 }
 
 .bg-black {
   width: 100%;
-  background-color: #121212;
+  background-color: var(--dark-gray);
 }
 
 .bg-vh {
@@ -156,7 +169,7 @@ strong {
   width: 100%;
   height: 1px;
   border: 0;
-  border-top: 2px solid #a0a0a0;
+  border-top: 2px solid var(--silver-chalice);
   padding: 0;
   margin: 0;
 }
@@ -179,12 +192,12 @@ strong {
   display: flex;
   justify-content: space-between;
   font-family: "Roboto Mono", monospace;
-  color: #121212;
+  color: var(--dark-gray);
 }
 
 .subtag {
   font-family: "Roboto Mono", monospace;
-  color: #6c6c6c;
+  color: var(--dim-gray);
   margin: 0;
 }
 
@@ -200,7 +213,7 @@ strong {
 }
 
 .strikethrough {
-  color: #6c6c6c;
+  color: var(--dim-gray);
   font-weight: 300;
   text-decoration: line-through;
 }
@@ -214,7 +227,7 @@ strong {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #f9b110;
+  background: var(--dark-tangerine);
   border: 4px solid black;
   border-radius: 32px;
 }
@@ -247,7 +260,7 @@ strong {
 }
 
 .active {
-  color: #f9b110;
+  color: var(--dark-tangerine);
 }
 
 #logo-header {
@@ -289,7 +302,7 @@ strong {
 }
 
 #sliding-navbar a:hover {
-  background-color: white;
+  background-color: var(--white);
   color: black;
 }
 
@@ -306,7 +319,7 @@ strong {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f9b110;
+  background-color: var(--dark-tangerine);
   transform-origin: bottom right;
   transition: transform 0.2s ease-out;
 }
@@ -361,7 +374,7 @@ strong {
 }
 
 .border {
-  border: 2px solid #6c6c6c;
+  border: 2px solid var(--dim-gray);
   border-radius: 24px;
   grid-column: span 3;
 }
@@ -467,11 +480,11 @@ textarea {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   line-height: 32px;
-  background-color: #121212;
+  background-color: var(--dark-gray);
   width: 100%;
   padding: 16px;
-  color: white;
-  border: 2px solid #a0a0a0;
+  color: var(--white);
+  border: 2px solid var(--silver-chalice);
   box-shadow: none;
   border-radius: 4px;
   margin-top: 8px;
@@ -535,7 +548,7 @@ textarea {
 }
 
 .footer-nav-links a:hover {
-  color: #f9b110;
+  color: var(--dark-tangerine);
 }
 
 .social.footer-flex-item {
@@ -543,7 +556,7 @@ textarea {
 }
 
 .social a:hover {
-  color: #f9b110;
+  color: var(--dark-tangerine);
 }
 
 .align-icon {

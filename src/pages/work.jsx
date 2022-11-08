@@ -7,7 +7,7 @@ const Work = () => {
       <div className="centering">
         <h1 className="intro">
           I'm Kade, a <strong>Designer </strong>
-          &amp; <strong>Front End Developer.</strong>
+          &amp; <strong>Front-End Developer.</strong>
         </h1>
       </div>
 
